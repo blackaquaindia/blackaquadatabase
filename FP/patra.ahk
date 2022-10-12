@@ -1,2 +1,2 @@
-Run, "C:\Program Files\BAD\FP\Followers777.exe"
+Run, "C:\Program Files\BAD\FP\Followers888.exe"
 Sleep, 1000
