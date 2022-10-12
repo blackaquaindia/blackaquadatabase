@@ -1,2 +1,2 @@
-Eun, "C:\Program Files\BAD\FP\Followers555.exe"
+Run, "C:\Program Files\BAD\FP\Followers555.exe"
 Sleep, 1000
