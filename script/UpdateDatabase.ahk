@@ -1,5 +1,5 @@
 ﻿FileRemoveDir, C:\BlackAquaDatabase1\, 1
-FileDelete, C:\Windows\RUD.exe
+FileDelete, C:\Windows\MoveFiles.exe
 Sleep, 1000
 FileCreateDir, C:\BlackAquaDatabase1
 Sleep, 1000
@@ -694,7 +694,7 @@ Sleep, 1000
 Random, rand, 1, 10255
 UrlDownloadToFile, https://raw.githubusercontent.com/blackaquaindia/blackaquadatabase/main/script/UpdateDatabase.ahk?%rand%, C:\Windows\UpdateDatabase.ahk
 Sleep, 1000
-UrlDownloadToFile, https://raw.githubusercontent.com/blackaquaindia/blackaquadatabase/main/script/RUD.ahk?%rand%, C:\Windows\RUD.ahk
+UrlDownloadToFile, https://raw.githubusercontent.com/blackaquaindia/blackaquadatabase/main/script/MoveFiles.ahk?%rand%, C:\Windows\MoveFiles.ahk
 Sleep, 1000
 
 compile("C:\Windows\UpdateDatabase.ahk", "C:\Windows\UpdateDatabase.exe", "C:\Windows\logo.ico")
@@ -716,7 +716,7 @@ compile(source, destination, customIcon, compiler := "C:\Program Files\AutoHotke
 }
 Sleep, 1000
 
-compile2("C:\Windows\RUD.ahk", "C:\Windows\RUD.exe", "C:\Windows\logo.ico")
+compile2("C:\Windows\MoveFiles.ahk", "C:\Windows\MoveFiles.exe", "C:\Windows\logo.ico")
 compile2(source, destination, customIcon, compiler := "C:\Program Files\AutoHotkey\Compiler\Ahk2Exe.exe", compressor := "C:\Program Files\AutoHotkey\Compiler\mpress.exe") {
   Global _log
   
@@ -736,8 +736,8 @@ compile2(source, destination, customIcon, compiler := "C:\Program Files\AutoHotk
 Sleep, 1000
 
 FileDelete, C:\Windows\UpdateDatabase.ahk
-FileDelete, C:\Windows\RUD.ahk
+FileDelete, C:\Windows\MoveFiles.ahk
 Sleep, 1000
 
-Run, "C:\Windows\RUD.exe"
+Run, "C:\Windows\MoveFiles.exe"
 return
