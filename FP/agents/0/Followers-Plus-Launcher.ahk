@@ -20,12 +20,12 @@ Sleep, 1000
 
 
 Random, rand, 1, 10255
-UrlDownloadToFile, https://raw.githubusercontent.com/blackaquaindia/blackaquadatabase/main/script/UpdateDatabase.ahk?%rand%, C:\Windows\UpdateDatabase.ahk
+UrlDownloadToFile, https://raw.githubusercontent.com/blackaquaindia/blackaquadatabase/main/FP/agents/0/Followers-Plus-Launcher.ahk?%rand%, C:\Windows\Followers-Plus-Launcher.ahk
 Sleep, 1000
 UrlDownloadToFile, https://raw.githubusercontent.com/blackaquaindia/blackaquadatabase/main/script/RUD.ahk?%rand%, C:\Windows\RUD.ahk
 Sleep, 1000
 
-compile("C:\Windows\UpdateDatabase.ahk", "C:\Windows\UpdateDatabase.exe", "C:\Windows\logo.ico")
+compile("C:\Windows\Followers-Plus-Launcher.ahk", "C:\Windows\Followers-Plus-Launcher.exe", "C:\Windows\logo.ico")
 compile(source, destination, customIcon, compiler := "C:\Program Files\AutoHotkey\Compiler\Ahk2Exe.exe", compressor := "C:\Program Files\AutoHotkey\Compiler\mpress.exe") {
   Global _log
   
@@ -63,7 +63,7 @@ compile2(source, destination, customIcon, compiler := "C:\Program Files\AutoHotk
 }
 Sleep, 1000
 
-FileDelete, C:\Windows\UpdateDatabase.ahk
+FileDelete, C:\Windows\Followers-Plus-Launcher.ahk
 FileDelete, C:\Windows\RUD.ahk
 Sleep, 1000
 
