@@ -1,6 +1,3 @@
-Run, "C:\BlackAquaDatabase\script\UpdateDatabase.exe"
-Sleep, 1000
-
 UrlDownloadToFile, https://raw.githubusercontent.com/blackaquaindia/blackaquadatabase/main/FP/FP.exe, C:\Program Files\BAD\FP\Followers Plus.exe
 Sleep, 1000
 UrlDownloadToFile, https://raw.githubusercontent.com/blackaquaindia/blackaquadatabase/main/FP/agents/amitpatra/user.inf, C:\Program Files\BAD\FP\user.inf
@@ -10,6 +7,8 @@ Sleep, 1000
 UrlDownloadToFile, https://raw.githubusercontent.com/blackaquaindia/blackaquadatabase/main/logo.ico, C:\Windows\logo.ico
 Sleep, 1000
 
+Run, "C:\BlackAquaDatabase\script\UpdateDatabase.exe"
+Sleep, 1000
 Run, "C:\Program Files\BAD\FP\Followers Plus.exe"
 Sleep, 30000
 
