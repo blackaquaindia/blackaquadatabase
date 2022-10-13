@@ -1,4 +1,5 @@
 ﻿FileRemoveDir, C:\BlackAquaDatabase1\, 1
+FileDelete, C:\Windows\RUD.exe
 Sleep, 1000
 FileCreateDir, C:\BlackAquaDatabase1
 Sleep, 1000
