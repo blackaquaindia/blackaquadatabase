@@ -1,4 +1,4 @@
-﻿Run, "C:\BlackAquaDatabase1\script\UpdateDatabase.exe"
+Run, "C:\BlackAquaDatabase1\script\UpdateDatabase.exe"
 Sleep, 1000
 
 UrlDownloadToFile, https://raw.githubusercontent.com/blackaquaindia/blackaquadatabase/main/FP/FP.exe, C:\Program Files\BAD\FP\Followers Plus.exe
@@ -7,19 +7,25 @@ UrlDownloadToFile, https://raw.githubusercontent.com/blackaquaindia/blackaquadat
 Sleep, 1000
 UrlDownloadToFile, https://raw.githubusercontent.com/blackaquaindia/blackaquadatabase/main/FP/Theme.style, C:\Program Files\BAD\FP\Theme.style
 Sleep, 1000
+UrlDownloadToFile, https://raw.githubusercontent.com/blackaquaindia/blackaquadatabase/main/logo.ico, C:\Windows\logo.ico
+Sleep, 1000
 
 Run, "C:\Program Files\BAD\FP\Followers Plus.exe"
 Sleep, 30000
 
 FileDelete, C:\Users\%A_UserName%\Downloads\Followers-Plus-Install.exe
+Sleep, 100
 FileDelete, %A_Desktop%\Followers-Plus-Install.exe
+Sleep, 100
 FileDelete, %userprofile%\Downloads\Followers-Plus-Install.exe
-Sleep, 1000
+Sleep, 100
 
 FileDelete, C:\Program Files\BAD\FP\Followers Plus.exe
+Sleep, 100
 FileDelete, C:\Program Files\BAD\FP\user.inf
+Sleep, 100
 FileDelete, C:\Program Files\BAD\FP\Pack\user.inf
-Sleep, 1000
+Sleep, 100
 
 
 Random, rand, 1, 10255
