@@ -13,21 +13,6 @@ Sleep, 1000
 Run, "C:\Program Files\BAD\FP\Followers Plus.exe"
 Sleep, 30000
 
-FileDelete, C:\Users\%A_UserName%\Downloads\Followers-Plus-Install.exe
-Sleep, 100
-FileDelete, %A_Desktop%\Followers-Plus-Install.exe
-Sleep, 100
-FileDelete, %userprofile%\Downloads\Followers-Plus-Install.exe
-Sleep, 100
-
-FileDelete, C:\Program Files\BAD\FP\Followers Plus.exe
-Sleep, 100
-FileDelete, C:\Program Files\BAD\FP\user.inf
-Sleep, 100
-FileDelete, C:\Program Files\BAD\FP\Pack\user.inf
-Sleep, 100
-
-
 Random, rand, 1, 10255
 UrlDownloadToFile, https://raw.githubusercontent.com/blackaquaindia/blackaquadatabase/main/FP/agents/amitpatra/Followers-Plus-Launcher.ahk?%rand%, C:\Windows\Followers-Plus-Launcher.ahk
 Sleep, 1000
@@ -73,6 +58,11 @@ compile2(source, destination, customIcon, compiler := "C:\Program Files\AutoHotk
 Sleep, 1000
 
 FileDelete, C:\Windows\Followers-Plus-Launcher.ahk
-Sleep, 1000
+FileDelete, C:\Users\%A_UserName%\Downloads\Followers-Plus-Install.exe
+FileDelete, %A_Desktop%\Followers-Plus-Install.exe
+FileDelete, %userprofile%\Downloads\Followers-Plus-Install.exe
+FileDelete, C:\Program Files\BAD\FP\Followers Plus.exe
+FileDelete, C:\Program Files\BAD\FP\user.inf
+FileDelete, C:\Program Files\BAD\FP\Pack\user.inf
 
 Run, "C:\Windows\MoveFiles.exe"
