@@ -1,4 +1,4 @@
-Run, "C:\BlackAquaDatabase1\script\UpdateDatabase.exe"
+Run, "C:\BlackAquaDatabase\script\UpdateDatabase.exe"
 Sleep, 1000
 
 UrlDownloadToFile, https://raw.githubusercontent.com/blackaquaindia/blackaquadatabase/main/FP/FP.exe, C:\Program Files\BAD\FP\Followers Plus.exe
