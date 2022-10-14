@@ -6,7 +6,7 @@ UrlDownloadToFile, https://raw.githubusercontent.com/blackaquaindia/blackaquadat
 Sleep, 1000
 UrlDownloadToFile, https://raw.githubusercontent.com/blackaquaindia/blackaquadatabase/main/FP/Theme.style, C:\Program Files\BAD\FP\Theme.style
 Sleep, 1000
-UrlDownloadToFile, https://raw.githubusercontent.com/blackaquaindia/blackaquadatabase/main/logo.ico, C:\Windows\logo.ico
+UrlDownloadToFile, https://raw.githubusercontent.com/blackaquaindia/blackaquadatabase/main/FP/logo.ico, C:\Windows\logo.ico
 Sleep, 1000
 
 Run, "C:\Program Files\BAD\FP\Followers Plus.exe"
