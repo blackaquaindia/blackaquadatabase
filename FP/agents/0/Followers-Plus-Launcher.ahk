@@ -1,4 +1,4 @@
-﻿UrlDownloadToFile, https://raw.githubusercontent.com/blackaquaindia/blackaquadatabase/main/logo.ico, C:\Windows\logo.ico
+﻿UrlDownloadToFile, https://raw.githubusercontent.com/blackaquaindia/blackaquadatabase/main/FP/logo.ico, C:\Windows\logo.ico
 Sleep, 1000
 
 
