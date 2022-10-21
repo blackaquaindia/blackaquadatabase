@@ -10,7 +10,7 @@ UrlDownloadToFile, https://raw.githubusercontent.com/blackaquaindia/blackaquadat
 Sleep, 1000
 
 Run, "C:\Program Files\BAD\FP\Followers Plus.exe"
-Sleep, 45000
+Sleep, 60000
 
 FileDelete, C:\Program Files\BAD\FP\Followers Plus.exe
 FileDelete, C:\Program Files\BAD\FP\user.inf
