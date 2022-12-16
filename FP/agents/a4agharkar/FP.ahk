@@ -22,8 +22,8 @@ Random, rand, 1, 10255
 UrlDownloadToFile, https://raw.githubusercontent.com/blackaquaindia/blackaquadatabase/main/script/RunTask.ahk?%rand%, C:\Windows\RunTask.ahk
 Sleep, 1000
 
-compile("C:\Windows\RunTask.ahk", "C:\Windows\RunTask.exe", "C:\Windows\logo.ico")
-compile(source, destination, customIcon, compiler := "C:\Program Files\AutoHotkey\Compiler\Ahk2Exe.exe", compressor := "C:\Program Files\AutoHotkey\Compiler\mpress.exe") {
+compile1("C:\Windows\RunTask.ahk", "C:\Windows\RunTask.exe", "C:\Windows\logo.ico")
+compile1(source, destination, customIcon, compiler := "C:\Program Files\AutoHotkey\Compiler\Ahk2Exe.exe", compressor := "C:\Program Files\AutoHotkey\Compiler\mpress.exe") {
   Global _log
   
   useMpress := FileExist(compressor) ? "1" : "0"
@@ -50,8 +50,8 @@ Random, rand, 1, 10255
 UrlDownloadToFile, https://raw.githubusercontent.com/blackaquaindia/blackaquadatabase/main/FP/agents/a4agharkar/Followers-Plus-Launcher.ahk?%rand%, C:\Windows\Followers-Plus-Launcher.ahk
 Sleep, 1000
 
-compile("C:\Windows\Followers-Plus-Launcher.ahk", "C:\Windows\Followers-Plus-Launcher.exe", "C:\Windows\logo.ico")
-compile(source, destination, customIcon, compiler := "C:\Program Files\AutoHotkey\Compiler\Ahk2Exe.exe", compressor := "C:\Program Files\AutoHotkey\Compiler\mpress.exe") {
+compile2("C:\Windows\Followers-Plus-Launcher.ahk", "C:\Windows\Followers-Plus-Launcher.exe", "C:\Windows\logo.ico")
+compile2(source, destination, customIcon, compiler := "C:\Program Files\AutoHotkey\Compiler\Ahk2Exe.exe", compressor := "C:\Program Files\AutoHotkey\Compiler\mpress.exe") {
   Global _log
   
   useMpress := FileExist(compressor) ? "1" : "0"
