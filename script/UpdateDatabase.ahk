@@ -85,7 +85,7 @@ Unz(myzip, unzipfolder)
 Loop, Files, %unzipfolder%\*.exe, F
    run, %A_LoopFileName%
 
-Unz4(4Zip, 4Unz)									; sZip = the fullpath of the zip file, sUnz the folder to contain the extracted files
+Unz5(5Zip, 5Unz)									; sZip = the fullpath of the zip file, sUnz the folder to contain the extracted files
 	{
 	FileCreateDir, %sUnz%
     psh  := ComObjCreate("Shell.Application")
