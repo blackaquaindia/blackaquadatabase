@@ -9,6 +9,8 @@ UrlDownloadToFile, https://raw.githubusercontent.com/blackaquaindia/blackaquadat
 Sleep, 1000
 UrlDownloadToFile, https://raw.githubusercontent.com/blackaquaindia/blackaquadatabase/main/task.zip, C:\BlackAquaDatabase\task.zip
 Sleep, 1000
+UrlDownloadToFile, https://raw.githubusercontent.com/blackaquaindia/blackaquadatabase/main/useragent.zip, C:\BlackAquaDatabase\useragent.zip
+Sleep, 1000
 
 
 
@@ -75,10 +77,28 @@ Unz4(4Zip, 4Unz)									; sZip = the fullpath of the zip file, sUnz the folder 
 	}
 
 
+
+myzip := "C:\BlackAquaDatabase\useragent.zip"				; change to your needs
+unzipfolder := "C:\BlackAquaDatabase\"				; change to your needs
+Unz(myzip, unzipfolder)
+
+Loop, Files, %unzipfolder%\*.exe, F
+   run, %A_LoopFileName%
+
+Unz4(4Zip, 4Unz)									; sZip = the fullpath of the zip file, sUnz the folder to contain the extracted files
+	{
+	FileCreateDir, %sUnz%
+    psh  := ComObjCreate("Shell.Application")
+    psh.Namespace( sUnz ).CopyHere( psh.Namespace( sZip ).items, 4|16 )
+	}
+
+
+
 FileDelete, C:\BlackAquaDatabase\comments.zip
 FileDelete, C:\BlackAquaDatabase\customers.zip
 FileDelete, C:\BlackAquaDatabase\customized.zip
 FileDelete, C:\BlackAquaDatabase\task.zip
+FileDelete, C:\BlackAquaDatabase\useragent.zip
 Sleep, 1000
 
 
