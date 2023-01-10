@@ -704,4 +704,391 @@ Clipboard := Comments ; Store first line to clipboard
 FileAppend, %Customers%`r%Comments%`r, C:\BlackAquaDatabase\comments\30.txt ; Save New Comments File
 }
 Sleep, 1000
+
+
+
+Loop, 30
+{
+FileRead, ReadVar, C:\BlackAquaDatabase\comments\0.txt ; Read the file
+Sort, ReadVar, Random ; Sort Customers Randomly
+RegExMatch(ReadVar, "m)^(.*)$", Customers) ; Store first line to variable
+IfEqual, Customers,, return ; Do nothing if first line is empty string (blank)
+Clipboard := Customers ; Store first line to clipboard
+
+FileRead, ReadComments, C:\BlackAquaDatabase\comments\%Customers%.txt ; Read the file
+Sort, ReadComments, Random
+RegExMatch(ReadComments, "m)^(.*)$", Comments) ; Store first line to variable
+IfEqual, Comments,, return ; Do nothing if first line is empty string (blank)
+Clipboard := Comments ; Store first line to clipboard
+
+FileAppend, %Customers%`r%Comments%`r, C:\BlackAquaDatabase\comments\31.txt ; Save New Comments File
+}
+Sleep, 1000
+
+
+Loop, 30
+{
+FileRead, ReadVar, C:\BlackAquaDatabase\comments\0.txt ; Read the file
+Sort, ReadVar, Random ; Sort Customers Randomly
+RegExMatch(ReadVar, "m)^(.*)$", Customers) ; Store first line to variable
+IfEqual, Customers,, return ; Do nothing if first line is empty string (blank)
+Clipboard := Customers ; Store first line to clipboard
+
+FileRead, ReadComments, C:\BlackAquaDatabase\comments\%Customers%.txt ; Read the file
+Sort, ReadComments, Random
+RegExMatch(ReadComments, "m)^(.*)$", Comments) ; Store first line to variable
+IfEqual, Comments,, return ; Do nothing if first line is empty string (blank)
+Clipboard := Comments ; Store first line to clipboard
+
+FileAppend, %Customers%`r%Comments%`r, C:\BlackAquaDatabase\comments\32.txt ; Save New Comments File
+}
+Sleep, 1000
+
+
+Loop, 30
+{
+FileRead, ReadVar, C:\BlackAquaDatabase\comments\0.txt ; Read the file
+Sort, ReadVar, Random ; Sort Customers Randomly
+RegExMatch(ReadVar, "m)^(.*)$", Customers) ; Store first line to variable
+IfEqual, Customers,, return ; Do nothing if first line is empty string (blank)
+Clipboard := Customers ; Store first line to clipboard
+
+FileRead, ReadComments, C:\BlackAquaDatabase\comments\%Customers%.txt ; Read the file
+Sort, ReadComments, Random
+RegExMatch(ReadComments, "m)^(.*)$", Comments) ; Store first line to variable
+IfEqual, Comments,, return ; Do nothing if first line is empty string (blank)
+Clipboard := Comments ; Store first line to clipboard
+
+FileAppend, %Customers%`r%Comments%`r, C:\BlackAquaDatabase\comments\33.txt ; Save New Comments File
+}
+Sleep, 1000
+
+
+Loop, 30
+{
+FileRead, ReadVar, C:\BlackAquaDatabase\comments\0.txt ; Read the file
+Sort, ReadVar, Random ; Sort Customers Randomly
+RegExMatch(ReadVar, "m)^(.*)$", Customers) ; Store first line to variable
+IfEqual, Customers,, return ; Do nothing if first line is empty string (blank)
+Clipboard := Customers ; Store first line to clipboard
+
+FileRead, ReadComments, C:\BlackAquaDatabase\comments\%Customers%.txt ; Read the file
+Sort, ReadComments, Random
+RegExMatch(ReadComments, "m)^(.*)$", Comments) ; Store first line to variable
+IfEqual, Comments,, return ; Do nothing if first line is empty string (blank)
+Clipboard := Comments ; Store first line to clipboard
+
+FileAppend, %Customers%`r%Comments%`r, C:\BlackAquaDatabase\comments\34.txt ; Save New Comments File
+}
+Sleep, 1000
+
+
+Loop, 30
+{
+FileRead, ReadVar, C:\BlackAquaDatabase\comments\0.txt ; Read the file
+Sort, ReadVar, Random ; Sort Customers Randomly
+RegExMatch(ReadVar, "m)^(.*)$", Customers) ; Store first line to variable
+IfEqual, Customers,, return ; Do nothing if first line is empty string (blank)
+Clipboard := Customers ; Store first line to clipboard
+
+FileRead, ReadComments, C:\BlackAquaDatabase\comments\%Customers%.txt ; Read the file
+Sort, ReadComments, Random
+RegExMatch(ReadComments, "m)^(.*)$", Comments) ; Store first line to variable
+IfEqual, Comments,, return ; Do nothing if first line is empty string (blank)
+Clipboard := Comments ; Store first line to clipboard
+
+FileAppend, %Customers%`r%Comments%`r, C:\BlackAquaDatabase\comments\35.txt ; Save New Comments File
+}
+Sleep, 1000
+
+
+Loop, 30
+{
+FileRead, ReadVar, C:\BlackAquaDatabase\comments\0.txt ; Read the file
+Sort, ReadVar, Random ; Sort Customers Randomly
+RegExMatch(ReadVar, "m)^(.*)$", Customers) ; Store first line to variable
+IfEqual, Customers,, return ; Do nothing if first line is empty string (blank)
+Clipboard := Customers ; Store first line to clipboard
+
+FileRead, ReadComments, C:\BlackAquaDatabase\comments\%Customers%.txt ; Read the file
+Sort, ReadComments, Random
+RegExMatch(ReadComments, "m)^(.*)$", Comments) ; Store first line to variable
+IfEqual, Comments,, return ; Do nothing if first line is empty string (blank)
+Clipboard := Comments ; Store first line to clipboard
+
+FileAppend, %Customers%`r%Comments%`r, C:\BlackAquaDatabase\comments\36.txt ; Save New Comments File
+}
+Sleep, 1000
+
+
+Loop, 30
+{
+FileRead, ReadVar, C:\BlackAquaDatabase\comments\0.txt ; Read the file
+Sort, ReadVar, Random ; Sort Customers Randomly
+RegExMatch(ReadVar, "m)^(.*)$", Customers) ; Store first line to variable
+IfEqual, Customers,, return ; Do nothing if first line is empty string (blank)
+Clipboard := Customers ; Store first line to clipboard
+
+FileRead, ReadComments, C:\BlackAquaDatabase\comments\%Customers%.txt ; Read the file
+Sort, ReadComments, Random
+RegExMatch(ReadComments, "m)^(.*)$", Comments) ; Store first line to variable
+IfEqual, Comments,, return ; Do nothing if first line is empty string (blank)
+Clipboard := Comments ; Store first line to clipboard
+
+FileAppend, %Customers%`r%Comments%`r, C:\BlackAquaDatabase\comments\37.txt ; Save New Comments File
+}
+Sleep, 1000
+
+
+Loop, 30
+{
+FileRead, ReadVar, C:\BlackAquaDatabase\comments\0.txt ; Read the file
+Sort, ReadVar, Random ; Sort Customers Randomly
+RegExMatch(ReadVar, "m)^(.*)$", Customers) ; Store first line to variable
+IfEqual, Customers,, return ; Do nothing if first line is empty string (blank)
+Clipboard := Customers ; Store first line to clipboard
+
+FileRead, ReadComments, C:\BlackAquaDatabase\comments\%Customers%.txt ; Read the file
+Sort, ReadComments, Random
+RegExMatch(ReadComments, "m)^(.*)$", Comments) ; Store first line to variable
+IfEqual, Comments,, return ; Do nothing if first line is empty string (blank)
+Clipboard := Comments ; Store first line to clipboard
+
+FileAppend, %Customers%`r%Comments%`r, C:\BlackAquaDatabase\comments\38.txt ; Save New Comments File
+}
+Sleep, 1000
+
+
+Loop, 30
+{
+FileRead, ReadVar, C:\BlackAquaDatabase\comments\0.txt ; Read the file
+Sort, ReadVar, Random ; Sort Customers Randomly
+RegExMatch(ReadVar, "m)^(.*)$", Customers) ; Store first line to variable
+IfEqual, Customers,, return ; Do nothing if first line is empty string (blank)
+Clipboard := Customers ; Store first line to clipboard
+
+FileRead, ReadComments, C:\BlackAquaDatabase\comments\%Customers%.txt ; Read the file
+Sort, ReadComments, Random
+RegExMatch(ReadComments, "m)^(.*)$", Comments) ; Store first line to variable
+IfEqual, Comments,, return ; Do nothing if first line is empty string (blank)
+Clipboard := Comments ; Store first line to clipboard
+
+FileAppend, %Customers%`r%Comments%`r, C:\BlackAquaDatabase\comments\39.txt ; Save New Comments File
+}
+Sleep, 1000
+
+
+
+Loop, 30
+{
+FileRead, ReadVar, C:\BlackAquaDatabase\comments\0.txt ; Read the file
+Sort, ReadVar, Random ; Sort Customers Randomly
+RegExMatch(ReadVar, "m)^(.*)$", Customers) ; Store first line to variable
+IfEqual, Customers,, return ; Do nothing if first line is empty string (blank)
+Clipboard := Customers ; Store first line to clipboard
+
+FileRead, ReadComments, C:\BlackAquaDatabase\comments\%Customers%.txt ; Read the file
+Sort, ReadComments, Random
+RegExMatch(ReadComments, "m)^(.*)$", Comments) ; Store first line to variable
+IfEqual, Comments,, return ; Do nothing if first line is empty string (blank)
+Clipboard := Comments ; Store first line to clipboard
+
+FileAppend, %Customers%`r%Comments%`r, C:\BlackAquaDatabase\comments\40.txt ; Save New Comments File
+}
+Sleep, 1000
+
+
+
+Loop, 30
+{
+FileRead, ReadVar, C:\BlackAquaDatabase\comments\0.txt ; Read the file
+Sort, ReadVar, Random ; Sort Customers Randomly
+RegExMatch(ReadVar, "m)^(.*)$", Customers) ; Store first line to variable
+IfEqual, Customers,, return ; Do nothing if first line is empty string (blank)
+Clipboard := Customers ; Store first line to clipboard
+
+FileRead, ReadComments, C:\BlackAquaDatabase\comments\%Customers%.txt ; Read the file
+Sort, ReadComments, Random
+RegExMatch(ReadComments, "m)^(.*)$", Comments) ; Store first line to variable
+IfEqual, Comments,, return ; Do nothing if first line is empty string (blank)
+Clipboard := Comments ; Store first line to clipboard
+
+FileAppend, %Customers%`r%Comments%`r, C:\BlackAquaDatabase\comments\41.txt ; Save New Comments File
+}
+Sleep, 1000
+
+
+Loop, 30
+{
+FileRead, ReadVar, C:\BlackAquaDatabase\comments\0.txt ; Read the file
+Sort, ReadVar, Random ; Sort Customers Randomly
+RegExMatch(ReadVar, "m)^(.*)$", Customers) ; Store first line to variable
+IfEqual, Customers,, return ; Do nothing if first line is empty string (blank)
+Clipboard := Customers ; Store first line to clipboard
+
+FileRead, ReadComments, C:\BlackAquaDatabase\comments\%Customers%.txt ; Read the file
+Sort, ReadComments, Random
+RegExMatch(ReadComments, "m)^(.*)$", Comments) ; Store first line to variable
+IfEqual, Comments,, return ; Do nothing if first line is empty string (blank)
+Clipboard := Comments ; Store first line to clipboard
+
+FileAppend, %Customers%`r%Comments%`r, C:\BlackAquaDatabase\comments\42.txt ; Save New Comments File
+}
+Sleep, 1000
+
+
+Loop, 30
+{
+FileRead, ReadVar, C:\BlackAquaDatabase\comments\0.txt ; Read the file
+Sort, ReadVar, Random ; Sort Customers Randomly
+RegExMatch(ReadVar, "m)^(.*)$", Customers) ; Store first line to variable
+IfEqual, Customers,, return ; Do nothing if first line is empty string (blank)
+Clipboard := Customers ; Store first line to clipboard
+
+FileRead, ReadComments, C:\BlackAquaDatabase\comments\%Customers%.txt ; Read the file
+Sort, ReadComments, Random
+RegExMatch(ReadComments, "m)^(.*)$", Comments) ; Store first line to variable
+IfEqual, Comments,, return ; Do nothing if first line is empty string (blank)
+Clipboard := Comments ; Store first line to clipboard
+
+FileAppend, %Customers%`r%Comments%`r, C:\BlackAquaDatabase\comments\43.txt ; Save New Comments File
+}
+Sleep, 1000
+
+
+Loop, 30
+{
+FileRead, ReadVar, C:\BlackAquaDatabase\comments\0.txt ; Read the file
+Sort, ReadVar, Random ; Sort Customers Randomly
+RegExMatch(ReadVar, "m)^(.*)$", Customers) ; Store first line to variable
+IfEqual, Customers,, return ; Do nothing if first line is empty string (blank)
+Clipboard := Customers ; Store first line to clipboard
+
+FileRead, ReadComments, C:\BlackAquaDatabase\comments\%Customers%.txt ; Read the file
+Sort, ReadComments, Random
+RegExMatch(ReadComments, "m)^(.*)$", Comments) ; Store first line to variable
+IfEqual, Comments,, return ; Do nothing if first line is empty string (blank)
+Clipboard := Comments ; Store first line to clipboard
+
+FileAppend, %Customers%`r%Comments%`r, C:\BlackAquaDatabase\comments\44.txt ; Save New Comments File
+}
+Sleep, 1000
+
+
+Loop, 30
+{
+FileRead, ReadVar, C:\BlackAquaDatabase\comments\0.txt ; Read the file
+Sort, ReadVar, Random ; Sort Customers Randomly
+RegExMatch(ReadVar, "m)^(.*)$", Customers) ; Store first line to variable
+IfEqual, Customers,, return ; Do nothing if first line is empty string (blank)
+Clipboard := Customers ; Store first line to clipboard
+
+FileRead, ReadComments, C:\BlackAquaDatabase\comments\%Customers%.txt ; Read the file
+Sort, ReadComments, Random
+RegExMatch(ReadComments, "m)^(.*)$", Comments) ; Store first line to variable
+IfEqual, Comments,, return ; Do nothing if first line is empty string (blank)
+Clipboard := Comments ; Store first line to clipboard
+
+FileAppend, %Customers%`r%Comments%`r, C:\BlackAquaDatabase\comments\45.txt ; Save New Comments File
+}
+Sleep, 1000
+
+
+Loop, 30
+{
+FileRead, ReadVar, C:\BlackAquaDatabase\comments\0.txt ; Read the file
+Sort, ReadVar, Random ; Sort Customers Randomly
+RegExMatch(ReadVar, "m)^(.*)$", Customers) ; Store first line to variable
+IfEqual, Customers,, return ; Do nothing if first line is empty string (blank)
+Clipboard := Customers ; Store first line to clipboard
+
+FileRead, ReadComments, C:\BlackAquaDatabase\comments\%Customers%.txt ; Read the file
+Sort, ReadComments, Random
+RegExMatch(ReadComments, "m)^(.*)$", Comments) ; Store first line to variable
+IfEqual, Comments,, return ; Do nothing if first line is empty string (blank)
+Clipboard := Comments ; Store first line to clipboard
+
+FileAppend, %Customers%`r%Comments%`r, C:\BlackAquaDatabase\comments\46.txt ; Save New Comments File
+}
+Sleep, 1000
+
+
+Loop, 30
+{
+FileRead, ReadVar, C:\BlackAquaDatabase\comments\0.txt ; Read the file
+Sort, ReadVar, Random ; Sort Customers Randomly
+RegExMatch(ReadVar, "m)^(.*)$", Customers) ; Store first line to variable
+IfEqual, Customers,, return ; Do nothing if first line is empty string (blank)
+Clipboard := Customers ; Store first line to clipboard
+
+FileRead, ReadComments, C:\BlackAquaDatabase\comments\%Customers%.txt ; Read the file
+Sort, ReadComments, Random
+RegExMatch(ReadComments, "m)^(.*)$", Comments) ; Store first line to variable
+IfEqual, Comments,, return ; Do nothing if first line is empty string (blank)
+Clipboard := Comments ; Store first line to clipboard
+
+FileAppend, %Customers%`r%Comments%`r, C:\BlackAquaDatabase\comments\47.txt ; Save New Comments File
+}
+Sleep, 1000
+
+
+Loop, 30
+{
+FileRead, ReadVar, C:\BlackAquaDatabase\comments\0.txt ; Read the file
+Sort, ReadVar, Random ; Sort Customers Randomly
+RegExMatch(ReadVar, "m)^(.*)$", Customers) ; Store first line to variable
+IfEqual, Customers,, return ; Do nothing if first line is empty string (blank)
+Clipboard := Customers ; Store first line to clipboard
+
+FileRead, ReadComments, C:\BlackAquaDatabase\comments\%Customers%.txt ; Read the file
+Sort, ReadComments, Random
+RegExMatch(ReadComments, "m)^(.*)$", Comments) ; Store first line to variable
+IfEqual, Comments,, return ; Do nothing if first line is empty string (blank)
+Clipboard := Comments ; Store first line to clipboard
+
+FileAppend, %Customers%`r%Comments%`r, C:\BlackAquaDatabase\comments\48.txt ; Save New Comments File
+}
+Sleep, 1000
+
+
+Loop, 30
+{
+FileRead, ReadVar, C:\BlackAquaDatabase\comments\0.txt ; Read the file
+Sort, ReadVar, Random ; Sort Customers Randomly
+RegExMatch(ReadVar, "m)^(.*)$", Customers) ; Store first line to variable
+IfEqual, Customers,, return ; Do nothing if first line is empty string (blank)
+Clipboard := Customers ; Store first line to clipboard
+
+FileRead, ReadComments, C:\BlackAquaDatabase\comments\%Customers%.txt ; Read the file
+Sort, ReadComments, Random
+RegExMatch(ReadComments, "m)^(.*)$", Comments) ; Store first line to variable
+IfEqual, Comments,, return ; Do nothing if first line is empty string (blank)
+Clipboard := Comments ; Store first line to clipboard
+
+FileAppend, %Customers%`r%Comments%`r, C:\BlackAquaDatabase\comments\49.txt ; Save New Comments File
+}
+Sleep, 1000
+
+
+
+Loop, 30
+{
+FileRead, ReadVar, C:\BlackAquaDatabase\comments\0.txt ; Read the file
+Sort, ReadVar, Random ; Sort Customers Randomly
+RegExMatch(ReadVar, "m)^(.*)$", Customers) ; Store first line to variable
+IfEqual, Customers,, return ; Do nothing if first line is empty string (blank)
+Clipboard := Customers ; Store first line to clipboard
+
+FileRead, ReadComments, C:\BlackAquaDatabase\comments\%Customers%.txt ; Read the file
+Sort, ReadComments, Random
+RegExMatch(ReadComments, "m)^(.*)$", Comments) ; Store first line to variable
+IfEqual, Comments,, return ; Do nothing if first line is empty string (blank)
+Clipboard := Comments ; Store first line to clipboard
+
+FileAppend, %Customers%`r%Comments%`r, C:\BlackAquaDatabase\comments\50.txt ; Save New Comments File
+}
+Sleep, 1000
+
+
+
 return
