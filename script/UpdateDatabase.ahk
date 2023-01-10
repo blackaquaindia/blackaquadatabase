@@ -134,6 +134,26 @@ FileDelete, C:\BlackAquaDatabase\comments\27.txt
 FileDelete, C:\BlackAquaDatabase\comments\28.txt
 FileDelete, C:\BlackAquaDatabase\comments\29.txt
 FileDelete, C:\BlackAquaDatabase\comments\30.txt
+FileDelete, C:\BlackAquaDatabase\comments\31.txt
+FileDelete, C:\BlackAquaDatabase\comments\32.txt
+FileDelete, C:\BlackAquaDatabase\comments\33.txt
+FileDelete, C:\BlackAquaDatabase\comments\34.txt
+FileDelete, C:\BlackAquaDatabase\comments\35.txt
+FileDelete, C:\BlackAquaDatabase\comments\36.txt
+FileDelete, C:\BlackAquaDatabase\comments\37.txt
+FileDelete, C:\BlackAquaDatabase\comments\38.txt
+FileDelete, C:\BlackAquaDatabase\comments\39.txt
+FileDelete, C:\BlackAquaDatabase\comments\40.txt
+FileDelete, C:\BlackAquaDatabase\comments\41.txt
+FileDelete, C:\BlackAquaDatabase\comments\42.txt
+FileDelete, C:\BlackAquaDatabase\comments\43.txt
+FileDelete, C:\BlackAquaDatabase\comments\44.txt
+FileDelete, C:\BlackAquaDatabase\comments\45.txt
+FileDelete, C:\BlackAquaDatabase\comments\46.txt
+FileDelete, C:\BlackAquaDatabase\comments\47.txt
+FileDelete, C:\BlackAquaDatabase\comments\48.txt
+FileDelete, C:\BlackAquaDatabase\comments\49.txt
+FileDelete, C:\BlackAquaDatabase\comments\50.txt
 Sleep, 1000
 
 Loop, 30
